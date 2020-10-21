@@ -4,6 +4,10 @@ go:
   - 1.8.x
   - 1.x
 
+arch:
+  - amd64
+  - ppc64le
+
 before_install:
   - go get -t -v ./...
   - go get -t -v github.com/modern-go/reflect2-tests/...
